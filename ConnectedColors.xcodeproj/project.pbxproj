@@ -12,6 +12,8 @@
 		C9A2C9BE1CC97C0A00275E76 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9A2C9BC1CC97C0A00275E76 /* Main.storyboard */; };
 		C9A2C9C01CC97C0A00275E76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9A2C9BF1CC97C0A00275E76 /* Assets.xcassets */; };
 		C9A2C9C31CC97C0A00275E76 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9A2C9C11CC97C0A00275E76 /* LaunchScreen.storyboard */; };
+		C9A2C9CB1CC97CBD00275E76 /* ColorSwitchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A2C9CA1CC97CBD00275E76 /* ColorSwitchViewController.swift */; };
+		C9A2C9CD1CC97D6500275E76 /* ColorServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A2C9CC1CC97D6500275E76 /* ColorServiceManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		C9A2C9BF1CC97C0A00275E76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C9A2C9C21CC97C0A00275E76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C9A2C9C41CC97C0A00275E76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9A2C9CA1CC97CBD00275E76 /* ColorSwitchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ColorSwitchViewController.swift; path = ../ColorSwitchViewController.swift; sourceTree = "<group>"; };
+		C9A2C9CC1CC97D6500275E76 /* ColorServiceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorServiceManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +60,9 @@
 			children = (
 				C9A2C9B81CC97C0A00275E76 /* AppDelegate.swift */,
 				C9A2C9BA1CC97C0A00275E76 /* ViewController.swift */,
+				C9A2C9CA1CC97CBD00275E76 /* ColorSwitchViewController.swift */,
 				C9A2C9BC1CC97C0A00275E76 /* Main.storyboard */,
+				C9A2C9CC1CC97D6500275E76 /* ColorServiceManager.swift */,
 				C9A2C9BF1CC97C0A00275E76 /* Assets.xcassets */,
 				C9A2C9C11CC97C0A00275E76 /* LaunchScreen.storyboard */,
 				C9A2C9C41CC97C0A00275E76 /* Info.plist */,
@@ -137,6 +143,8 @@
 			files = (
 				C9A2C9BB1CC97C0A00275E76 /* ViewController.swift in Sources */,
 				C9A2C9B91CC97C0A00275E76 /* AppDelegate.swift in Sources */,
+				C9A2C9CB1CC97CBD00275E76 /* ColorSwitchViewController.swift in Sources */,
+				C9A2C9CD1CC97D6500275E76 /* ColorServiceManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +296,7 @@
 				C9A2C9C91CC97C0A00275E76 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
